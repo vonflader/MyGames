@@ -4,15 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MyGames.Api.Entities
+namespace MyGames.Api.Models
 {
-    public class Game
+    public class GameUpdateDto
     {
-        public int Id { get; set; }
-        [Required]        
+        [StringLength(30, MinimumLength = 3)]
         public string Title { get; set; }
         public string Description { get; set; }
-        [Required]
         public string Genre { get; set; }
         public string Platform { get; set; }
         public DateTime ReleaseDate { get; set; }

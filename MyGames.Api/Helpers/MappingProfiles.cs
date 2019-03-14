@@ -17,6 +17,8 @@ namespace MyGames.Api.Helpers
                 opt => opt.MapFrom(
                     src => src.ReleaseDate.GetCurrentAge())
                     );
+
+            CreateMap<GameCreateDto, Game>();
         }
     }
 }
