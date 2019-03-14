@@ -3676,3 +3676,134 @@ LIMIT @__p_0
 2019-03-14 15:13:48.4460|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MyGames.Api.Controllers.GamesController.GetGames (MyGames.Api) in 109.3893ms 
 2019-03-14 15:13:48.4460|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyGames.Api.Controllers.GamesController.GetGames (MyGames.Api)' 
 2019-03-14 15:13:48.4460|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 126.4484ms 200 application/json; charset=utf-8 
+2019-03-14 15:17:05.2474||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\szymon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-14 15:17:05.5187|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/   
+2019-03-14 15:17:05.5671|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.7033ms 301  
+2019-03-14 15:17:05.5716|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/index.html   
+2019-03-14 15:17:05.6444|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.8212ms 200 text/html 
+2019-03-14 15:17:06.0456|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/swagger/v1/swagger.json   
+2019-03-14 15:17:06.2138|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 168.1772ms 200 application/json;charset=utf-8 
+2019-03-14 15:41:55.8031||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\szymon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-03-14 15:41:56.1635|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/   
+2019-03-14 15:41:56.2174|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.1482ms 301  
+2019-03-14 15:41:56.2417|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/index.html   
+2019-03-14 15:41:56.3200|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 78.2203ms 200 text/html 
+2019-03-14 15:41:56.3596|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/swagger-ui.css   
+2019-03-14 15:41:56.3596|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/swagger-ui-bundle.js   
+2019-03-14 15:41:56.3596|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/swagger-ui-standalone-preset.js   
+2019-03-14 15:41:56.4058|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2019-03-14 15:41:56.4058|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2019-03-14 15:41:56.4058|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2019-03-14 15:41:56.4058|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 54.9623ms 200 text/css 
+2019-03-14 15:41:56.4058|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 51.9893ms 200 application/javascript 
+2019-03-14 15:41:56.4153|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.6967ms 200 application/javascript 
+2019-03-14 15:41:56.8859|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44320/swagger/v1/swagger.json   
+2019-03-14 15:41:57.1850|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 299.1463ms 200 application/json;charset=utf-8 
+2019-03-14 15:42:25.9407|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44320/api/games/1   
+2019-03-14 15:42:25.9766|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api)' 
+2019-03-14 15:42:26.0011|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetGame", controller = "Games"}. Executing action MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) 
+2019-03-14 15:42:26.6669|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.3-servicing-35854 initialized 'MyGamesContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2019-03-14 15:42:26.8554|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:26.8554|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:26.8733|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2019-03-14 15:42:26.8733|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:26.8733|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:26.8733|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2019-03-14 15:42:26.9053|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:26.9053|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2019-03-14 15:42:26.9351|20405|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date. 
+2019-03-14 15:42:27.2141|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) with arguments (1) - Validation state: Valid 
+2019-03-14 15:42:27.5369|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:27.5965|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "g"."Id", "g"."Description", "g"."Genre", "g"."Platform", "g"."ReleaseDate", "g"."Score", "g"."Title"
+FROM "Games" AS "g"
+WHERE "g"."Id" = @__id_0
+LIMIT 1 
+2019-03-14 15:42:27.7272|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 508.9452ms. 
+2019-03-14 15:42:27.7272|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MyGames.Api.Models.GameDto'. 
+2019-03-14 15:42:27.7462|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) in 1740.6996ms 
+2019-03-14 15:42:27.7462|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api)' 
+2019-03-14 15:42:27.7462|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1810.5306ms 200 application/json; charset=utf-8 
+2019-03-14 15:42:35.9124|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44320/api/games/1   
+2019-03-14 15:42:35.9124|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api)' 
+2019-03-14 15:42:35.9165|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetGame", controller = "Games"}. Executing action MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) 
+2019-03-14 15:42:35.9165|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.3-servicing-35854 initialized 'MyGamesContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2019-03-14 15:42:35.9165|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:35.9165|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:35.9165|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2019-03-14 15:42:35.9325|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:35.9325|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:35.9325|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2019-03-14 15:42:35.9325|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:35.9463|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2019-03-14 15:42:35.9463|20405|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date. 
+2019-03-14 15:42:35.9463|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) with arguments (1) - Validation state: Valid 
+2019-03-14 15:42:35.9643|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:35.9643|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "g"."Id", "g"."Description", "g"."Genre", "g"."Platform", "g"."ReleaseDate", "g"."Score", "g"."Title"
+FROM "Games" AS "g"
+WHERE "g"."Id" = @__id_0
+LIMIT 1 
+2019-03-14 15:42:35.9643|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 20.1199ms. 
+2019-03-14 15:42:35.9643|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MyGames.Api.Models.GameDto'. 
+2019-03-14 15:42:35.9921|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) in 74.0475ms 
+2019-03-14 15:42:35.9943|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api)' 
+2019-03-14 15:42:35.9943|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.7678ms 200 application/xml; charset=utf-8 
+2019-03-14 15:42:48.9034|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44320/api/games/1   
+2019-03-14 15:42:48.9034|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api)' 
+2019-03-14 15:42:48.9034|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetGame", controller = "Games"}. Executing action MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) 
+2019-03-14 15:42:48.9034|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.3-servicing-35854 initialized 'MyGamesContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None 
+2019-03-14 15:42:48.9034|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:48.9034|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:48.9147|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2019-03-14 15:42:48.9147|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:48.9147|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:48.9147|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table'; 
+2019-03-14 15:42:48.9147|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:48.9147|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId"; 
+2019-03-14 15:42:48.9147|20405|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date. 
+2019-03-14 15:42:48.9147|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) with arguments (1) - Validation state: Valid 
+2019-03-14 15:42:48.9317|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON; 
+2019-03-14 15:42:48.9317|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "g"."Id", "g"."Description", "g"."Genre", "g"."Platform", "g"."ReleaseDate", "g"."Score", "g"."Title"
+FROM "Games" AS "g"
+WHERE "g"."Id" = @__id_0
+LIMIT 1 
+2019-03-14 15:42:48.9317|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.7306ms. 
+2019-03-14 15:42:48.9317|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'MyGames.Api.Models.GameDto'. 
+2019-03-14 15:42:48.9317|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api) in 31.1617ms 
+2019-03-14 15:42:48.9317|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyGames.Api.Controllers.GamesController.GetGame (MyGames.Api)' 
+2019-03-14 15:42:48.9317|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.0791ms 200 application/json; charset=utf-8 

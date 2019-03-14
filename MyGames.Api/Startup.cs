@@ -31,7 +31,7 @@ namespace MyGames.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc(options => 
+            services.AddMvc(options =>
             {
                 options.RespectBrowserAcceptHeader = true;
             })
@@ -40,6 +40,7 @@ namespace MyGames.Api
                 options.SerializerSettings.ContractResolver =
                     new CamelCasePropertyNamesContractResolver();
             })
+            .AddXmlSerializerFormatters()
             .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddDbContext<MyGamesContext>(options =>
