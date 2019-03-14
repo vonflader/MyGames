@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szymon\\source\\repos\\MyGames\\MyGames.Api\\MyGames.Api.csproj": {}
+    "C:\\Users\\szymon\\Source\\Repos\\vonflader\\MyGames\\MyGames.Api\\MyGames.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szymon\\source\\repos\\MyGames\\MyGames.Api\\MyGames.Api.csproj": {
+    "C:\\Users\\szymon\\Source\\Repos\\vonflader\\MyGames\\MyGames.Api\\MyGames.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szymon\\source\\repos\\MyGames\\MyGames.Api\\MyGames.Api.csproj",
+        "projectUniqueName": "C:\\Users\\szymon\\Source\\Repos\\vonflader\\MyGames\\MyGames.Api\\MyGames.Api.csproj",
         "projectName": "MyGames.Api",
-        "projectPath": "C:\\Users\\szymon\\source\\repos\\MyGames\\MyGames.Api\\MyGames.Api.csproj",
+        "projectPath": "C:\\Users\\szymon\\Source\\Repos\\vonflader\\MyGames\\MyGames.Api\\MyGames.Api.csproj",
         "packagesPath": "C:\\Users\\szymon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szymon\\source\\repos\\MyGames\\MyGames.Api\\obj\\",
+        "outputPath": "C:\\Users\\szymon\\Source\\Repos\\vonflader\\MyGames\\MyGames.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
