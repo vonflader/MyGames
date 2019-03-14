@@ -940,6 +940,9 @@
       "Microsoft.AspNetCore.Mvc.Analyzers/2.2.0": {
         "type": "package"
       },
+      "Microsoft.AspNetCore.Mvc.Api.Analyzers/2.2.0": {
+        "type": "package"
+      },
       "Microsoft.AspNetCore.Mvc.ApiExplorer/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -5705,6 +5708,18 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Mvc.Analyzers.dll",
         "microsoft.aspnetcore.mvc.analyzers.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Api.Analyzers/2.2.0": {
+      "sha512": "Fa+7EZgrtEbGe7ERADStu9pyC6kF3ZolCXDUXvGAWBeJHjpMmONqkn/ApQSdnsL94ZFDoZRdg0Z3gMPTBtUkPQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.api.analyzers/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Mvc.Api.Analyzers.dll",
+        "microsoft.aspnetcore.mvc.api.analyzers.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.api.analyzers.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Mvc.ApiExplorer/2.2.0": {
@@ -13491,6 +13506,7 @@
     ".NETCoreApp,Version=v2.2": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
+      "Microsoft.AspNetCore.Mvc.Api.Analyzers >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.3",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13548,6 +13564,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.Mvc.Api.Analyzers": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
