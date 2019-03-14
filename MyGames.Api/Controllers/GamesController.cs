@@ -31,11 +31,18 @@ namespace MyGames.Api.Controllers
             this.mapper = mapper;
         }
 
-        //public async Task<ActionResult<IEnumerable<GameDto>>> GetGames(
-        //    GamesResourceParameters gamesResourceParameters)
-        //{
-        //    return null;
-        //}
+        [HttpGet(Name = "GetGames")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult<IEnumerable<GameDto>>> GetGames(
+            [FromQuery] GamesResourceParameters gamesResourceParameters)
+        {
+            var games = await gameRepository.GetGamesAsync(gamesResourceParameters);
+            if (games is null) return NotFound();
+            var gamesDto = mapper.Map<IEnumerable<GameDto>>(games);
+            return Ok(gamesDto);
+        }        
 
         [HttpGet("{id}", Name = "GetGame")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -49,6 +56,20 @@ namespace MyGames.Api.Controllers
 
             var gameDto = mapper.Map<GameDto>(game);
             return Ok(gameDto);
+        }
+
+        [HttpGet("random", Name = "GetRandomGame")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult<GameDto>> GetRandomGame(
+            [FromQuery] GamesResourceParameters gamesResourceParameters)
+        {
+            var game = await gameRepository.GetRandomGameAsync(gamesResourceParameters);
+            if (game is null) return NotFound();
+
+            var gameDto = mapper.Map<GameDto>(game);
+            return gameDto;
         }
 
         [HttpPost(Name = "CreateGame")]

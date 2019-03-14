@@ -7,7 +7,7 @@ namespace MyGames.Api.Helpers
 {
     public class GamesResourceParameters
     {
-        public int GameNumber { get; set; } = 5;
+        public int NumberOfRecords { get; set; } = 10;
         public string Genre { get; set; }
         public string Platform { get; set; }        
     }
