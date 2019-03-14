@@ -86,7 +86,7 @@ namespace MyGames.Api
                 options.RoutePrefix = string.Empty;
             });
             
-            app.UseMvc();            
+            app.UseMvc();                        
         }
     }
 }
