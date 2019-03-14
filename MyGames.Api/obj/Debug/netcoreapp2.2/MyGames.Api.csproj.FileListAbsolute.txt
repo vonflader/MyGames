@@ -12,3 +12,4 @@ C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames
 C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.Api.pdb
 C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.dll
 C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.pdb
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.db
