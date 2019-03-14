@@ -1,0 +1,14 @@
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.Api.deps.json
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.Api.runtimeconfig.json
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.Api.runtimeconfig.dev.json
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.Api.dll
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.csprojAssemblyReference.cache
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.csproj.CoreCompileInputs.cache
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.RazorAssemblyInfo.cache
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.RazorAssemblyInfo.cs
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.AssemblyInfoInputs.cache
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.AssemblyInfo.cs
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.RazorTargetAssemblyInfo.cache
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\bin\Debug\netcoreapp2.2\MyGames.Api.pdb
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.dll
+C:\Users\szymon\source\repos\MyGames\MyGames.Api\obj\Debug\netcoreapp2.2\MyGames.Api.pdb
